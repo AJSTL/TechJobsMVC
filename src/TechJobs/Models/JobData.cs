@@ -14,7 +14,7 @@ namespace TechJobs.Models
         {
             LoadData();
 
-            // Bonus mission: return a copy
+            // Bonus mission: return a copy 
             return new List<Dictionary<string, string>>(AllJobs);
         }
 
